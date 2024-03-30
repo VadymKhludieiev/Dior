@@ -1,12 +1,12 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-   
-    loop: true,
-  
-    // Navigation arrows
+    effect: "fade",
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
   });
