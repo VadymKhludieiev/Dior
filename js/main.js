@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiperTop = new Swiper('.top-swiper', {
     // Optional parameters
     effect: "fade",
     autoplay: {

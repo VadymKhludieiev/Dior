@@ -59,7 +59,7 @@ ul {
     }
     
     .top {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
     .top-slide {
     background-repeat: no-repeat;
@@ -121,4 +121,26 @@ ul {
     .swiper-button-next {
         left: 75px;
         right: auto;
+    }
+    .about {
+        margin-bottom: 150px;
+    }
+    .about-inner {
+        padding-left: 200px;
+    }
+    .about-title {
+        font-family: "Playfair Display", serif;
+        font-size: 32px;
+        text-transform: uppercase;
+        max-width: 185px;
+        font-weight: 400;
+    }
+    .about-textbox {
+
+    }
+    .about-text {
+
+    }
+    .about-text-bold {
+
     }
