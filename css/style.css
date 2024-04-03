@@ -125,7 +125,7 @@ ul {
         right: auto;
     }
     .about {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
         overflow: hidden;
     }
     .about-inner {
@@ -160,7 +160,7 @@ ul {
         margin-bottom: 20px;
     }
     .about-slider {
-        width: 1600px;
+        width: 1800px;
         padding-left: 200px;
         margin-left: -200px;
         padding-bottom: 20px;
@@ -171,4 +171,59 @@ ul {
     }
     .container-arrow .swiper-button-next .swiper-button-disabled .swiper-button-prev .swiper-button-disabled {
         opacity: 1;
+    }
+    .accordeon {
+        margin-bottom: 223px;
+    }
+    .accordeon-inner {
+        padding-left: 200px;
+    }
+    .accordeon-item {
+        border-bottom: 1px solid #000;
+        padding: 50px 101px  0 0;
+        position: relative;
+    }
+    .accordeon-item::before {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 51px;
+        background-image: url(../images/arrow-down.svg);
+        right: 85px;
+        top: 50px;
+    }
+    .accordeon-item:last-child::after {
+        content:'';
+        position: absolute;
+        background-image: url(../images/accordeon-img.jpg);
+    width: 65px;
+    height: 120px;
+    bottom: -73px;
+    left: 268px;
+}
+    .accordeon-triger {
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+    }
+    .accordeon-triger-title {
+text-transform: uppercase;
+font-size: 24px;
+flex-basis: 300px;
+padding-bottom: 42px;
+    }
+    .accordeon-triger-text {
+flex-basis: 387px;
+margin-right: 104px;
+padding-bottom: 20px;
+    }
+    .accordeon-content {
+        padding-top: 20px;
+        display: none;
+    }
+    .accordeon-item--active .accordeon-content {
+        display: block;
+    }
+    .accordeon-content p {
+        margin-bottom: 10px;
     }

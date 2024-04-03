@@ -21,3 +21,9 @@ const swiperTop = new Swiper('.top-swiper', {
         prevEl: '.swiper-button-prev',
       },
   });
+
+  document.querySelectorAll('.accordeon-triger').forEach((item) => {
+    item.addEventListener('click', () => {
+        item.parentNode.classList.toggle{'accordeon-item--active'}
+    })
+});
