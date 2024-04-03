@@ -24,6 +24,6 @@ const swiperTop = new Swiper('.top-swiper', {
 
   document.querySelectorAll('.accordeon-triger').forEach((item) => {
     item.addEventListener('click', () => {
-        item.parentNode.classList.toggle{'accordeon-item--active'}
+        item.parentNode.classList.toggle('accordeon-item--active')
     })
 });
