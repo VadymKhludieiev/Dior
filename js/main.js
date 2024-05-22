@@ -5,6 +5,9 @@ const swiperTop = new Swiper('.top-swiper', {
         delay: 2500,
         disableOnInteraction: false,
     },
+    pagination: {
+      el: ".swiper-pagination",
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
